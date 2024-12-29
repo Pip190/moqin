@@ -26,7 +26,7 @@ spring:
           max-wait: 100 #连接等待时间
 logging:
   level:
-    com.xixing: debug
+    com.wo: debug
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.wo.domain
