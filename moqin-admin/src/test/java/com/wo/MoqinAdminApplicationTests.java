@@ -18,7 +18,7 @@ class MoqinAdminApplicationTests {
 
     @Test
     void contextLoads() {
-        R<User> userR = userService.selectByPrimaryKey(1L);
+        R<User> userR = userService.selectByPrimaryKey(2L);
         log.info(userR.toString());
     }
 
